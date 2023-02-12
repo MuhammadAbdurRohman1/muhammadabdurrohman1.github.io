@@ -1,8 +1,69 @@
-body {  background-color: green ;
-	
+:root{
+      --bg1:#E6FAFC;
+      --acc:#9cfc97;
+}
+
+*{
+      padding: 0%;
+      margin: 0%;
+      box-sizing: border-box;
+}
+
+body{
+      background-color: var(--bg1);
+      height: 90rem;
+}
+
+.navtoogle{
+      position: fixed;
+      top: 1rem;
+      right: 2rem;
+      width: 3rem;
+      height: 1.9rem;
+      background-color: #86d48279;
+      border-color: var(--acc);
+      border: 0.4px;
+      border-style:solid ;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor:pointer
+}
+
+
+.logo{
+      position: fixed;
+      top: 1rem;
+      left:2rem;
+}
+  /**
+.sidenav{
+      display: none;
+}
+**/
+.sidenav{
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 0;
+      height: 100%;
+      background-color: #86d48279;
+      z-index: 80000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: 0.5s;
+      text-decoration: none;
+      overflow-y: hidden;
 
 }
 
-strong {
-    background-color:blueviolet;
+.sidenav a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.5rem;
+      margin: 1rem;
+      transition: 0.5s;
 }
