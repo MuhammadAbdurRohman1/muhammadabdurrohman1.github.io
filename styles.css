@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 :root{
       --bg1:#E6FAFC;
       --acc:#9cfc97;
@@ -65,8 +66,20 @@ body{
       position: relative;
       display: flexbox;
       width: fit-content;
-  }  /**
-
+  }  
+  
+.landing{
+      text-align: center;
+      display: flex;
+}
+.greeting{
+      font-family: 'Pacifico', cursive;
+}
+  
+.landing p {
+      font-family: 'Pacifico', cursive;
+}
+  /**
 .sidenav{
       display: none;
 }
