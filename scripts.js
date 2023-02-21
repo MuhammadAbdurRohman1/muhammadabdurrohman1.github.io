@@ -2,7 +2,7 @@ const body = document.body;
 const toogle = document.querySelector(".navtoogle");
 const nav = document.querySelector(".sidenav");
 var right = nav.style.right;
-console.log(body);
+console.log(right);
 toogle.addEventListener("click", myFunction);
 
 function myFunction() {
@@ -10,5 +10,5 @@ function myFunction() {
     right = "0%";
   } else {
     right = "-100%";
-  }
+  } 
 }
