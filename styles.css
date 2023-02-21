@@ -70,8 +70,8 @@ body{
 .landing{
       text-align: center;
       display: flex;
-      width: 100%;
-      height: 100%;
+      width: 10vh;
+      height: 100vh;
       align-items: center;
 }
 .greeting{
