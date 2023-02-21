@@ -125,7 +125,14 @@ body{
             overflow-y: hidden auto;
       
       }
+
+      .hidden{
+            right: -100%;
+      }
       
+      .expand{
+            right: 0%;
+      }
       
       
       
