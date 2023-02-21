@@ -72,6 +72,8 @@ body{
       display: inline-block;
       width: 100%;
       height: max-content;
+      align-items: center;
+      vertical-align: middle;
 }
 .greeting{
       font-family: 'Pacifico', cursive;
