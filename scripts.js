@@ -6,9 +6,9 @@ console.log(body);
 toogle.addEventListener("click", myFunction);
 
 function myFunction() {
-  if (right == "-100%") {
-    right = "0";
-  } else {
+  if (right == "0%") {
     right = "-100%";
+  } else {
+    right = "0%";
   }
 }
