@@ -56,7 +56,7 @@ body{
      display: none;
 }
 
-#sidenav{
+.sidenav{
       display: none;
 }
 
@@ -70,8 +70,8 @@ body{
 .landing{
       text-align: center;
       display: flex;
-      width: 100vh;
-      height: 100vh;
+      width: 100%;
+      height: 100;
       align-items: center;
 }
 .greeting{
@@ -89,13 +89,6 @@ body{
 }
 **/
 
-.hidden{
-      right: -100%;
-}
-
-.expand{
-      right: 0%;
-}
 
 
 
@@ -117,9 +110,10 @@ body{
       }
       
       
-      #sidenav{
+      .sidenav{
             position: fixed;
             top: 0;
+            right: -100%;
             width: 200px;
             height: 100%;
             background-color: #86d48279;
@@ -137,7 +131,7 @@ body{
       
       
       
-      #sidenav a {
+      .sidenav a {
             text-decoration: none;
             color: black;
             font-size: 1.5rem;
@@ -148,4 +142,8 @@ body{
       .menu{
             display: none;
       }
+      .active{
+          right: 0;
+      }
 }
+
